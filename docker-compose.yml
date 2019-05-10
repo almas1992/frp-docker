@@ -1,0 +1,14 @@
+version: "3"
+services:
+  frps:
+      build:
+        context: ./frps
+      volumes:
+        - "./frps/frps.ini:/etc/frps/frps.ini"
+      ports:
+        - "7000:7000"
+  frpc:
+      build:
+        context: ./frpc
+      volumes:
+        - "./frpc/frpc.ini:/etc/frpc/frpc.ini"
