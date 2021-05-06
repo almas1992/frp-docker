@@ -1,6 +1,6 @@
 FROM alpine:latest 
 
-LABEL maintainer="Memet Eli Nizam <almas1992@126.com>"
+LABEL maintainer="Memet Eli Nizam <memeteli.nizam@gmail.com>"
 
 WORKDIR /etc/frps
 
